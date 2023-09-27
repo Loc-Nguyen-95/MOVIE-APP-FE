@@ -3,7 +3,7 @@
 ## Data (Được trả về)
 **Movie List** 
 ```swift
-1 movie {
+Data 1 movie {
     id 
     name
     title
