@@ -1,0 +1,47 @@
+.icon-wrap-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 100%;
+}
+
+.icon-wrap-nav svg {
+    width: 30px;
+    height: 30px;
+    fill: #ccc;
+}
+
+.nav {
+	position: fixed;
+	top: 0;  
+
+	width: 100%;
+	padding: 20px;
+	height: 60px; 
+	
+	z-index: 1;
+	/* Animation */
+	transition-timing-function: ease-in;
+	transition: all 0.5s; 
+} 
+
+.nav-black {
+	background-color: #111;
+}
+
+
+.nav-title {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.nav-title a {
+	color: red;
+	text-decoration: none;
+}
+
+
+
