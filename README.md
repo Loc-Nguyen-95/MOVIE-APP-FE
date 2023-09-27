@@ -2,6 +2,7 @@
 
 ## Data (Được trả về)
 **Movie List** 
+```swift
 1 movie {
     id 
     name
@@ -20,6 +21,7 @@
     vote_count
     origin_country
 }
+```
 ## UI 
 ### Browse 
 ### Search 
