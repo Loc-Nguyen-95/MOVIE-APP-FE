@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './search.css';
+import SearchResult from '../../components/search-result/SearchResult';
 
 function Search() {
   const [searchValue, setSearchValue] = useState(''); // value input = text
@@ -41,8 +42,10 @@ function Search() {
 
         </form>
       </div>
-
+      
+      <h2>Search Result</h2>
       {/* search-result */}
+      <SearchResult query={query} />
 
     </div>
   )
